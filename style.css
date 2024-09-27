@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f0f5f9;
+}
+
+.container {
+  width: 60%;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.input-section {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 200px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  width: auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.output {
+  margin-top: 20px;
+  font-size: 16px;
+  text-align: center;
+  font-weight: bold;
+  color: #333;
+}
+
+.function-section {
+  margin-top: 20px;
+}
+
+.results-dropdown {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.result-dropdown button {
+  width: 100%;
+  padding: 15px;
+  background-color: #e9ecef;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.result-dropdown button:hover {
+  background-color: #d0d8de;
+}
